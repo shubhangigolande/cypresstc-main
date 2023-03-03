@@ -1,7 +1,6 @@
 {
   "name": "cypresstc",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "dependencies": {
     "cypress": "9.7",
     "npx": "^10.2.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhangigolande/cypresstc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shubhangigolande/cypresstc/issues"
+  },
+  "homepage": "https://github.com/shubhangigolande/cypresstc#readme",
+  "description": ""
 }
