@@ -3,7 +3,8 @@
    "lastName":"testLastName1",
     "email":"testEmail@gmail.com",
    "msg":"this is test data",
-   "successMsg":"Thanks for contacting us! We will get in touch with you shortly."
+   "successMsg":"Thanks for contacting us! We will get in touch with you shortly.",
+   "url":"https://www.weifieldcontracting.com/contact/"
 },
 {
     "firstName":"test123",
@@ -12,3 +13,4 @@
     "msg":"this is test datdsadasdsadsaa2",
     "successMsg":"Thanks for contacting us! We will get in touch with you shortly."
 }]
+

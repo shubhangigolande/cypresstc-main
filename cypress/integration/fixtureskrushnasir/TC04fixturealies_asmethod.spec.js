@@ -19,22 +19,22 @@ describe("Alies (Cypress variables)", () => {
     it("Need of variables", () => {
               cy.visit('https://www.weifieldcontracting.com/contact/')
               cy.get('[name="input_1.3"]').type(" RAM ");
-              // cy.get('[name="input_1.3"]').should("have.text", "RAM");
+              //cy.get('[name="input_1.3"]').should("have.text", "RAM"); not correct
 
-              // what is the difference bt have.text & have.value ?
-              // cy.get('[name="input_1.3"]').should("have.value", " RAM ");
+             // what is the difference bt have.text & have.value ?
+              cy.get('[name="input_1.3"]').should("have.value", " RAM ");
 
-              // // value ---> user input
-              // // text ---> HTML text
+              // value ---> user input
+              // text ---> HTML text
 
-              // // clear() --> clear user input
-              // cy.get('[name="input_1.3"]').clear();
+              // clear() --> clear user input
+              cy.get('[name="input_1.3"]').clear();
 
-              // how to call object methods (dot , bracket)
-              // .dot
-              // cy-- > Object
-              // get()-- > method
-              // cy.type().get()
+             // how to call object methods (dot , bracket)
+             // .dot
+             // cy-- > Object
+             // get()-- > method
+             // cy.type().get()
     })
 
     it("Store cypress commands in variable", () => {
@@ -43,7 +43,7 @@ describe("Alies (Cypress variables)", () => {
               let element = cy.get('[name="input_1.3"]')
 
               // // Parent command
-              // get,contains,request,vist
+              // get,contains,request,visit
 
               // // child command
               // type, click,check,clear,contains

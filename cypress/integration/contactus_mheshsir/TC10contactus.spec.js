@@ -18,7 +18,8 @@ describe('Verify the contact us functionality',()=>{
         cy.wait(17000)//5 sec
 
         //Step 6 Validate the sucess msg
-        //cy.get('.nf-response-msg').children().first().should('have.text','Form submitted successfully.')
+       // cy.get('.nf-response-msg').children().first().should('have.text','Form submitted successfully.')
+       cy.wait(4000)
         cy.get('.nf-response-msg > p').should('contain','Form submitted successfully.')
     })
 })
